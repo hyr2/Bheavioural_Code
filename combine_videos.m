@@ -1,6 +1,6 @@
 %concatenate avi files into one long video
 
-filepath_video = '/home/hyr2-office/Documents/Data/Behave/rh11/23-09-20';
+filepath_video = '/home/hyr2-office/Documents/Data/Behave/rh11/23-08-16';
 list_files = dir_sorted(fullfile(filepath_video,'*.avi'));      % what if the format is not .avi?
 list_files = {list_files.name};
 num_vids = length(list_files);
